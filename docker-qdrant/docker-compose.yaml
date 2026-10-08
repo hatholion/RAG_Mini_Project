@@ -1,17 +1,26 @@
+# Qdrant 벡터 데이터베이스를 Docker로 실행하기 위한 설정 파일
+# 실행: docker compose up -d / 종료: docker compose down
 services:
 
+  # 벡터 DB 서비스 (RAG에서 임베딩 저장 및 유사도 검색에 사용)
   qdrant:
+    # 사용할 Docker 이미지 (재현성이 필요하면 latest 대신 특정 버전 태그 권장)
     image: qdrant/qdrant:latest
+    # 컨테이너 이름을 고정 (docker logs qdrant 등으로 바로 접근 가능)
     container_name: qdrant
 
+    # 재시작 정책: 직접 중지(stop)하지 않는 한 오류/재부팅 시 자동 재시작
     restart: unless-stopped
 
+    # 포트 매핑 (호스트:컨테이너)
     ports:
-      - "6333:6333"
-      - "6334:6334"
+      - "6333:6333"  # REST API 및 웹 대시보드 (http://localhost:6333/dashboard)
+      - "6334:6334"  # gRPC API (고성능 클라이언트 연결용)
 
+    # 데이터 영속화: 컨테이너를 삭제해도 저장된 벡터 데이터가 유지됨
     volumes:
       - qdrant_storage:/qdrant/storage
 
+# 도커가 관리하는 named volume 선언 (위 서비스의 qdrant_storage와 연결)
 volumes:
   qdrant_storage:

@@ -2,12 +2,14 @@
 
 WSL2에서 `docker-compose.yaml`로 Qdrant를 실행하고,  
 OpenAI `text-embedding-3-small` 모델을 이용해 법률문서 더미데이터를 벡터로 저장하고 검색하는 실습이다.
-
+명령어들은 외우지 말고 익숙해지고 자주 쓰는 건 자주 씀으로써 외울 것.
 ---
 
 ## 1. Qdrant 실행
 
 `docker-compose.yaml`이 있는 폴더에서 실행한다.
+
+pull하여 Container에 저장.
 
 ```bash
 docker compose up -d
@@ -31,7 +33,7 @@ Dashboard:
 http://localhost:6333/dashboard
 ```
 
-종료:
+종료:(이미지 말고 컨테이너 삭제)
 
 ```bash
 docker compose down

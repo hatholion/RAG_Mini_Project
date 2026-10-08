@@ -1,0 +1,2224 @@
+{
+  "label": "r1_multi_query",
+  "n_questions": 54,
+  "summary": {
+    "정의형": {
+      "n": 8,
+      "mrr": 0.9375,
+      "hit@1": 0.875,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@1": 0.875,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    "조문번호형": {
+      "n": 8,
+      "mrr": 0.6395833333333333,
+      "hit@1": 0.5,
+      "hit@3": 0.625,
+      "hit@5": 0.875,
+      "recall@1": 0.5,
+      "recall@3": 0.625,
+      "recall@5": 0.875
+    },
+    "구어체": {
+      "n": 10,
+      "mrr": 0.75,
+      "hit@1": 0.5,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@1": 0.5,
+      "recall@3": 0.9,
+      "recall@5": 0.9
+    },
+    "의무·벌칙형": {
+      "n": 8,
+      "mrr": 0.7708333333333334,
+      "hit@1": 0.625,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@1": 0.5625,
+      "recall@3": 0.7916666666666666,
+      "recall@5": 0.7916666666666666
+    },
+    "정책·기관형": {
+      "n": 8,
+      "mrr": 0.875,
+      "hit@1": 0.75,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@1": 0.6875,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    "주제형": {
+      "n": 8,
+      "mrr": 0.5834821428571428,
+      "hit@1": 0.5,
+      "hit@3": 0.5,
+      "hit@5": 0.75,
+      "recall@1": 0.3333333333333333,
+      "recall@3": 0.41666666666666663,
+      "recall@5": 0.47916666666666663
+    },
+    "시행일": {
+      "n": 4,
+      "mrr": 0.6607142857142857,
+      "hit@1": 0.5,
+      "hit@3": 0.75,
+      "hit@5": 0.75,
+      "recall@1": 0.5,
+      "recall@3": 0.75,
+      "recall@5": 0.75
+    },
+    "전체": {
+      "n": 54,
+      "mrr": 0.7517416225749559,
+      "hit@1": 0.6111111111111112,
+      "hit@3": 0.8518518518518519,
+      "hit@5": 0.9259259259259259,
+      "recall@1": 0.5679012345679012,
+      "recall@3": 0.7901234567901234,
+      "recall@5": 0.8364197530864197
+    }
+  },
+  "details": [
+    {
+      "id": "q01",
+      "type": "정의형",
+      "question": "고영향 인공지능이란 무엇인가요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제4호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제33조",
+          "score": 0.0641
+        },
+        {
+          "chunk_id": "제2조#제10호",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0615
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0606
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "chunk@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 0.0
+    },
+    {
+      "id": "q02",
+      "type": "정의형",
+      "question": "생성형 인공지능은 무엇을 말하나요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제5호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제6호",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0621
+        },
+        {
+          "chunk_id": "제2조#제3호",
+          "score": 0.0618
+        },
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.0615
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q03",
+      "type": "정의형",
+      "question": "인공지능사업자는 누구를 말하고, 개발사업자와 이용사업자는 어떻게 다른가요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제7호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제2조#제6호",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제2조#제3호",
+          "score": 0.0597
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q04",
+      "type": "정의형",
+      "question": "이 법에서 말하는 영향받는 자는 누구인가요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제9호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제2조#제4호",
+          "score": 0.0619
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0617
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0598
+        },
+        {
+          "chunk_id": "제4조",
+          "score": 0.0474
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q05",
+      "type": "정의형",
+      "question": "인공지능윤리는 무엇을 뜻하나요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제11호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0632
+        },
+        {
+          "chunk_id": "제27조",
+          "score": 0.0484
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0464
+        },
+        {
+          "chunk_id": "제29조",
+          "score": 0.0455
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q06",
+      "type": "정의형",
+      "question": "학습용데이터는 무엇인가요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제12호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제12호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0637
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0615
+        },
+        {
+          "chunk_id": "제2조#제3호",
+          "score": 0.0606
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q07",
+      "type": "정의형",
+      "question": "인공지능시스템은 무엇을 말하나요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제2호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제2조#제3호",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0611
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q08",
+      "type": "정의형",
+      "question": "인공지능사회는 어떤 사회를 뜻하나요?",
+      "gold_articles": [
+        "제2조"
+      ],
+      "gold_chunks": [
+        "제2조#제10호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제10호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0616
+        },
+        {
+          "chunk_id": "제2조#제6호",
+          "score": 0.0595
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q09",
+      "type": "조문번호형",
+      "question": "제31조는 어떤 내용을 담고 있나요?",
+      "gold_articles": [
+        "제31조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제41조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제43조",
+          "score": 0.0622
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0619
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0616
+        },
+        {
+          "chunk_id": "제40조",
+          "score": 0.0606
+        }
+      ],
+      "mrr": 0.25,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q10",
+      "type": "조문번호형",
+      "question": "제34조에서 고영향 인공지능 사업자가 해야 할 조치를 알려 주세요.",
+      "gold_articles": [
+        "제34조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제34조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제33조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0632
+        },
+        {
+          "chunk_id": "제35조",
+          "score": 0.0627
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0608
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q11",
+      "type": "조문번호형",
+      "question": "제43조의 과태료 규정을 설명해 주세요.",
+      "gold_articles": [
+        "제43조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제43조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제40조",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0595
+        },
+        {
+          "chunk_id": "제42조",
+          "score": 0.0479
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0476
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q12",
+      "type": "조문번호형",
+      "question": "제7조는 무엇에 관한 조문인가요?",
+      "gold_articles": [
+        "제7조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제6조#①~②",
+          "score": 0.0617
+        },
+        {
+          "chunk_id": "제7조",
+          "score": 0.0484
+        },
+        {
+          "chunk_id": "제5조",
+          "score": 0.0469
+        },
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0469
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0462
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q13",
+      "type": "조문번호형",
+      "question": "제17조의2는 무슨 내용인가요?",
+      "gold_articles": [
+        "제17조의2"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제9조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0621
+        },
+        {
+          "chunk_id": "제2조#제4호",
+          "score": 0.0605
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0604
+        },
+        {
+          "chunk_id": "제17조의2",
+          "score": 0.0492
+        }
+      ],
+      "mrr": 0.2,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q14",
+      "type": "조문번호형",
+      "question": "제23조는 어떤 내용을 담고 있나요?",
+      "gold_articles": [
+        "제23조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제43조",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0602
+        },
+        {
+          "chunk_id": "제41조",
+          "score": 0.06
+        }
+      ],
+      "mrr": 0.16666666666666666,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "q15",
+      "type": "조문번호형",
+      "question": "제42조의 벌칙 규정을 설명해 주세요.",
+      "gold_articles": [
+        "제42조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제42조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제41조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제43조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0618
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q16",
+      "type": "조문번호형",
+      "question": "제9조는 무엇에 관한 조문인가요?",
+      "gold_articles": [
+        "제9조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제9조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제39조",
+          "score": 0.0621
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0609
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q17",
+      "type": "구어체",
+      "question": "AI로 만든 이미지나 영상에 AI가 만들었다고 표시해야 하나요?",
+      "gold_articles": [
+        "제31조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0646
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0629
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0627
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0612
+        },
+        {
+          "chunk_id": "제2조#제6호",
+          "score": 0.0602
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q18",
+      "type": "구어체",
+      "question": "우리 회사 AI 서비스가 고영향 AI에 해당하는지 어떻게 확인하나요?",
+      "gold_articles": [
+        "제33조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제33조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제35조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.062
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q19",
+      "type": "구어체",
+      "question": "AI로 직원을 채용하거나 대출 심사를 하면 이 법에서 특별히 관리하나요?",
+      "gold_articles": [
+        "제2조",
+        "제34조"
+      ],
+      "gold_chunks": [
+        "제2조#제4호"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제40조",
+          "score": 0.062
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0492
+        },
+        {
+          "chunk_id": "제33조",
+          "score": 0.0484
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0476
+        },
+        {
+          "chunk_id": "제35조",
+          "score": 0.0457
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "chunk@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 0.5,
+      "chunk@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 0.5,
+      "chunk@5": 0.0
+    },
+    {
+      "id": "q20",
+      "type": "구어체",
+      "question": "외국 회사가 만든 AI도 우리나라에서 쓰이면 이 법이 적용되나요?",
+      "gold_articles": [
+        "제4조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제4조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제36조",
+          "score": 0.0619
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0613
+        },
+        {
+          "chunk_id": "제5조",
+          "score": 0.0472
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0462
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q21",
+      "type": "구어체",
+      "question": "군사용이나 국가안보용 AI에도 이 법이 적용되나요?",
+      "gold_articles": [
+        "제4조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제4조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제4호",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제13조",
+          "score": 0.0602
+        },
+        {
+          "chunk_id": "제3조",
+          "score": 0.0479
+        },
+        {
+          "chunk_id": "제1조",
+          "score": 0.0462
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q22",
+      "type": "구어체",
+      "question": "AI가 들어간 서비스를 제공할 때 이용자에게 미리 알려야 하나요?",
+      "gold_articles": [
+        "제31조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0476
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0472
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0469
+        },
+        {
+          "chunk_id": "제40조",
+          "score": 0.0449
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q23",
+      "type": "구어체",
+      "question": "AI가 내린 결정의 이유를 설명해 달라고 요구할 수 있나요?",
+      "gold_articles": [
+        "제3조",
+        "제34조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0616
+        },
+        {
+          "chunk_id": "제3조",
+          "score": 0.0593
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0474
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0459
+        },
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0457
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 0.5,
+      "hit@5": 1.0,
+      "recall@5": 0.5
+    },
+    {
+      "id": "q24",
+      "type": "구어체",
+      "question": "국내에 사무소가 없는 해외 AI 회사도 국내 대리인을 두어야 하나요?",
+      "gold_articles": [
+        "제36조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제36조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제21조",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.062
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.0613
+        },
+        {
+          "chunk_id": "제22조의2#⑧~⑫",
+          "score": 0.0606
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q25",
+      "type": "구어체",
+      "question": "AI 연구소를 설립하려면 어떤 절차나 허가가 필요한가요?",
+      "gold_articles": [
+        "제22조의2"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제22조의3",
+          "score": 0.0651
+        },
+        {
+          "chunk_id": "제22조의2#⑧~⑫",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제22조의2#①~⑦",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.046
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0455
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q26",
+      "type": "구어체",
+      "question": "스타트업인데 AI 분야 창업 지원을 받을 수 있나요?",
+      "gold_articles": [
+        "제18조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제18조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제17조",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제19조",
+          "score": 0.0606
+        },
+        {
+          "chunk_id": "제22조",
+          "score": 0.0603
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0477
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q27",
+      "type": "의무·벌칙형",
+      "question": "고영향 AI를 제공하는 사업자는 영향평가를 반드시 해야 하나요?",
+      "gold_articles": [
+        "제35조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제35조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제33조",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0618
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q28",
+      "type": "의무·벌칙형",
+      "question": "AI 안전성 확보 의무는 어떤 AI에 적용되나요?",
+      "gold_articles": [
+        "제32조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제32조",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제29조",
+          "score": 0.0614
+        },
+        {
+          "chunk_id": "제13조",
+          "score": 0.0602
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0597
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q29",
+      "type": "의무·벌칙형",
+      "question": "AI 사업자가 법을 어기면 정부가 조사할 수 있나요?",
+      "gold_articles": [
+        "제40조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제40조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제39조",
+          "score": 0.0637
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.0597
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0466
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q30",
+      "type": "의무·벌칙형",
+      "question": "위원회 위원이 직무상 알게 된 비밀을 누설하면 어떤 처벌을 받나요?",
+      "gold_articles": [
+        "제42조",
+        "제7조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제9조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제7조",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제42조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제41조",
+          "score": 0.0627
+        },
+        {
+          "chunk_id": "제28조",
+          "score": 0.0613
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q31",
+      "type": "의무·벌칙형",
+      "question": "AI 사업자가 이용자에게 AI 사용 사실을 알리지 않으면 과태료를 내나요?",
+      "gold_articles": [
+        "제43조",
+        "제31조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제8호",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제40조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0611
+        }
+      ],
+      "mrr": 0.3333333333333333,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 0.5,
+      "hit@5": 1.0,
+      "recall@5": 0.5
+    },
+    {
+      "id": "q32",
+      "type": "의무·벌칙형",
+      "question": "생성형 AI 결과물 표시 의무를 지키지 않으면 어떻게 되나요?",
+      "gold_articles": [
+        "제31조",
+        "제40조",
+        "제43조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.064
+        },
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.0612
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0462
+        }
+      ],
+      "mrr": 0.3333333333333333,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 0.3333333333333333,
+      "hit@5": 1.0,
+      "recall@5": 0.3333333333333333
+    },
+    {
+      "id": "q33",
+      "type": "의무·벌칙형",
+      "question": "국내에 사무소가 없는 해외 AI 기업이 국내대리인을 지정하지 않으면 어떻게 되나요?",
+      "gold_articles": [
+        "제36조",
+        "제43조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제36조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0614
+        },
+        {
+          "chunk_id": "제22조의2#⑧~⑫",
+          "score": 0.0608
+        },
+        {
+          "chunk_id": "제16조",
+          "score": 0.0604
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 0.5,
+      "hit@3": 1.0,
+      "recall@3": 0.5,
+      "hit@5": 1.0,
+      "recall@5": 0.5
+    },
+    {
+      "id": "q34",
+      "type": "의무·벌칙형",
+      "question": "고영향 AI 영향평가를 하지 않으면 처벌을 받나요?",
+      "gold_articles": [
+        "제35조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제35조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제33조",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0627
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.046
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q35",
+      "type": "정책·기관형",
+      "question": "국가인공지능전략위원회는 어떻게 구성되나요?",
+      "gold_articles": [
+        "제7조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제7조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제10조",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제28조",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제8조#③",
+          "score": 0.0615
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q36",
+      "type": "정책·기관형",
+      "question": "인공지능 기본계획은 몇 년마다 수립하나요?",
+      "gold_articles": [
+        "제6조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제6조#①~②",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제6조#③~⑦",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제3조",
+          "score": 0.063
+        },
+        {
+          "chunk_id": "제37조",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0586
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q37",
+      "type": "정책·기관형",
+      "question": "인공지능안전연구소는 어떤 일을 하나요?",
+      "gold_articles": [
+        "제12조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제12조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0637
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0611
+        },
+        {
+          "chunk_id": "제22조의3",
+          "score": 0.0459
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q38",
+      "type": "정책·기관형",
+      "question": "중소기업이나 소상공인이 받을 수 있는 AI 지원이 있나요?",
+      "gold_articles": [
+        "제17조",
+        "제16조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제17조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제16조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.0605
+        },
+        {
+          "chunk_id": "제3조",
+          "score": 0.0462
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 0.5,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q39",
+      "type": "정책·기관형",
+      "question": "AI 학습용 데이터를 정부가 어떻게 지원하나요?",
+      "gold_articles": [
+        "제15조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제12호",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제15조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0465
+        },
+        {
+          "chunk_id": "제13조",
+          "score": 0.0455
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0315
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q40",
+      "type": "정책·기관형",
+      "question": "고영향 AI를 제공하는 사업자가 검증·인증을 받아야 하나요?",
+      "gold_articles": [
+        "제30조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제33조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0627
+        },
+        {
+          "chunk_id": "제35조",
+          "score": 0.0616
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q41",
+      "type": "정책·기관형",
+      "question": "인공지능정책센터는 어떤 일을 하나요?",
+      "gold_articles": [
+        "제11조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제11조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0632
+        },
+        {
+          "chunk_id": "제2조#제2호",
+          "score": 0.06
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q42",
+      "type": "정책·기관형",
+      "question": "한국인공지능진흥협회는 어떻게 설립되고 무슨 일을 하나요?",
+      "gold_articles": [
+        "제26조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제26조",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제22조의3",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제24조",
+          "score": 0.0613
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0602
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0596
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q43",
+      "type": "주제형",
+      "question": "인공지능연구소가 진행하는 사업은 무엇인가요?",
+      "gold_articles": [
+        "제22조의2"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제22조의2#①~⑦",
+          "score": 0.0651
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제12조",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "제22조의2#⑧~⑫",
+          "score": 0.0611
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q44",
+      "type": "주제형",
+      "question": "인공지능 데이터센터와 관련된 조항은 무엇인가요?",
+      "gold_articles": [
+        "제25조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제25조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제2조#제7호",
+          "score": 0.0607
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0479
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.0467
+        },
+        {
+          "chunk_id": "제2조#제12호",
+          "score": 0.0466
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": "q45",
+      "type": "주제형",
+      "question": "인공지능을 만들 때 윤리적인 측면에서는 어떤 것을 고려해야 하나요?",
+      "gold_articles": [
+        "제27조",
+        "제28조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제30조",
+          "score": 0.063
+        },
+        {
+          "chunk_id": "제3조",
+          "score": 0.0607
+        },
+        {
+          "chunk_id": "제35조",
+          "score": 0.0474
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0467
+        }
+      ],
+      "mrr": 0.14285714285714285,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "q46",
+      "type": "주제형",
+      "question": "인공지능을 신뢰할 수 있게 만들어야 하지 않을까요?",
+      "gold_articles": [
+        "제29조",
+        "제30조",
+        "제31조",
+        "제32조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제3조",
+          "score": 0.0638
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0626
+        },
+        {
+          "chunk_id": "제2조#제3호",
+          "score": 0.0602
+        },
+        {
+          "chunk_id": "제29조",
+          "score": 0.0471
+        }
+      ],
+      "mrr": 0.2,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 0.25
+    },
+    {
+      "id": "q47",
+      "type": "주제형",
+      "question": "인공지능 산업 증진을 위해 정부 부처들은 어떤 노력을 하나요?",
+      "gold_articles": [
+        "제21조",
+        "제22조",
+        "제22조의2",
+        "제37조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제25조",
+          "score": 0.0635
+        },
+        {
+          "chunk_id": "제20조",
+          "score": 0.0591
+        },
+        {
+          "chunk_id": "제19조",
+          "score": 0.0487
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.0477
+        },
+        {
+          "chunk_id": "제37조",
+          "score": 0.045
+        }
+      ],
+      "mrr": 0.2,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 1.0,
+      "recall@5": 0.25
+    },
+    {
+      "id": "q48",
+      "type": "주제형",
+      "question": "인공지능 학습용 데이터를 얻을 때 유의할 사항은 무엇인가요?",
+      "gold_articles": [
+        "제15조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제2조#제12호",
+          "score": 0.0651
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제2조#제1호",
+          "score": 0.0618
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0588
+        },
+        {
+          "chunk_id": "제2조#제5호",
+          "score": 0.0474
+        }
+      ],
+      "mrr": 0.125,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "hit@5": 0.0,
+      "recall@5": 0.0
+    },
+    {
+      "id": "q49",
+      "type": "주제형",
+      "question": "고영향 인공지능과 관련된 조항은 무엇인가요?",
+      "gold_articles": [
+        "제33조",
+        "제34조",
+        "제35조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제33조",
+          "score": 0.0651
+        },
+        {
+          "chunk_id": "제34조",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제31조",
+          "score": 0.0618
+        },
+        {
+          "chunk_id": "제2조#제11호",
+          "score": 0.0614
+        },
+        {
+          "chunk_id": "제2조#제9호",
+          "score": 0.0613
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 0.3333333333333333,
+      "hit@3": 1.0,
+      "recall@3": 0.6666666666666666,
+      "hit@5": 1.0,
+      "recall@5": 0.6666666666666666
+    },
+    {
+      "id": "q50",
+      "type": "주제형",
+      "question": "인공지능 위원회는 무엇이고 어떤 일을 하나요?",
+      "gold_articles": [
+        "제7조",
+        "제8조",
+        "제10조"
+      ],
+      "gold_chunks": [],
+      "retrieved": [
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제10조",
+          "score": 0.0624
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0623
+        },
+        {
+          "chunk_id": "제23조",
+          "score": 0.062
+        },
+        {
+          "chunk_id": "제11조",
+          "score": 0.0618
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 0.3333333333333333,
+      "hit@3": 1.0,
+      "recall@3": 0.6666666666666666,
+      "hit@5": 1.0,
+      "recall@5": 0.6666666666666666
+    },
+    {
+      "id": "q51",
+      "type": "시행일",
+      "question": "이 법은 언제부터 시행되나요?",
+      "gold_articles": [
+        "부칙"
+      ],
+      "gold_chunks": [
+        "부칙#21311"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "제4조",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제1조",
+          "score": 0.0593
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0484
+        },
+        {
+          "chunk_id": "제41조",
+          "score": 0.0466
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q52",
+      "type": "시행일",
+      "question": "시행이 6개월 늦춰진 조항은 무엇인가요?",
+      "gold_articles": [
+        "부칙"
+      ],
+      "gold_chunks": [
+        "부칙#21311"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제42조",
+          "score": 0.0653
+        },
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0643
+        },
+        {
+          "chunk_id": "제6조#①~②",
+          "score": 0.0628
+        },
+        {
+          "chunk_id": "제32조",
+          "score": 0.0582
+        },
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.046
+        }
+      ],
+      "mrr": 0.5,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "chunk@1": 0.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q53",
+      "type": "시행일",
+      "question": "디지털의료기기에 관한 부분은 언제부터 시행되나요?",
+      "gold_articles": [
+        "부칙"
+      ],
+      "gold_chunks": [
+        "부칙#20676"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "부칙#20676",
+          "score": 0.0656
+        },
+        {
+          "chunk_id": "부칙#21311",
+          "score": 0.0645
+        },
+        {
+          "chunk_id": "제15조",
+          "score": 0.0625
+        },
+        {
+          "chunk_id": "제25조",
+          "score": 0.0613
+        },
+        {
+          "chunk_id": "제38조",
+          "score": 0.0609
+        }
+      ],
+      "mrr": 1.0,
+      "hit@1": 1.0,
+      "recall@1": 1.0,
+      "chunk@1": 1.0,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "chunk@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "chunk@5": 1.0
+    },
+    {
+      "id": "q54",
+      "type": "시행일",
+      "question": "법이 시행되기 전에 위원회 위원을 미리 위촉할 수 있나요?",
+      "gold_articles": [
+        "부칙"
+      ],
+      "gold_chunks": [
+        "부칙#20676"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "제7조",
+          "score": 0.0648
+        },
+        {
+          "chunk_id": "제8조#①~②",
+          "score": 0.0634
+        },
+        {
+          "chunk_id": "제9조",
+          "score": 0.0633
+        },
+        {
+          "chunk_id": "제10조",
+          "score": 0.0618
+        },
+        {
+          "chunk_id": "제8조#③",
+          "score": 0.0616
+        }
+      ],
+      "mrr": 0.14285714285714285,
+      "hit@1": 0.0,
+      "recall@1": 0.0,
+      "chunk@1": 0.0,
+      "hit@3": 0.0,
+      "recall@3": 0.0,
+      "chunk@3": 0.0,
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "chunk@5": 0.0
+    }
+  ]
+}
